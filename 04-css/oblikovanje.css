@@ -16,7 +16,7 @@ body {
         preostanek pa se enakomerno razdeli med levim in desnim robom  */
     margin: auto;
     /*  Obojestranska poravnava besedila    */
-    text-align: justify;
+    text-align: left;
 }
 
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
@@ -30,4 +30,25 @@ a:active { color:#990000; outline:none; }
 code {
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     color: #009966;
+}
+h1 {
+    color: #306;}
+h2 {
+        margin-top:2em;
+        border-top:1px solid #AAAAAA;
+        padding:0.5em;
+    }
+#uvod {
+    padding:2em;
+    background-color:rgb(51, 0, 102, 0.1);
+}
+.slika {
+    font-size:0.9em;
+    font-weight:40%;
+    float:right;
+    margin-left:2em;
+}
+.slika img {
+    width:100%;
+    height:auto;
 }
